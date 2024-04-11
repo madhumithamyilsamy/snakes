@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+    /* Set background image */
+    animation-name: slideBackground;
+    animation-duration: 10s; /* Animation duration */
+    animation-timing-function: linear; /* Linear animation */
+    animation-iteration-count: infinite; /* Repeat the animation infinitely */
+    background-size: auto; /* Cover the entire background */
+
+}
+
+/* Define the background animation */
+@keyframes slideBackground {
+    0% { background-position: 0% 0%; } /* Start position */
+    100% { background-position: 100% 0%; } /* End position */
+}
+
+/* Other CSS styles for your page */
+/* Add other CSS rules as needed */
+h1 {
+    color: white;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
